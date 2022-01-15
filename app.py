@@ -2,7 +2,7 @@ import aiohttp, os, asyncio, dotenv, config
 from sanic import Sanic, response, request
 from sanic.response import json, text, html, redirect
 from requests_oauthlib import OAuth2Session
-
+#배그 멍청이
 dotenv.load_dotenv(verbose=True)
 
 app = Sanic(__name__)
